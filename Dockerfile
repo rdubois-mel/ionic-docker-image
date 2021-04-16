@@ -4,7 +4,7 @@ FROM node:lts-alpine
 
 
 # MÉTADONNÉES DE L'IMAGE
-LABEL version="0.1" maintainer="MEL <contact@lillemetropole.fr>"
+LABEL version="0.2" maintainer="MEL <contact@lillemetropole.fr>"
 
 RUN apk add --no-cache --virtual .build-deps make git gcc g++ python
 
